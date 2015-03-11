@@ -8,8 +8,17 @@
 <div id = "header">        
        <div class = "headernav">
                <a class="upload">Upload</a>
-               <a class="upload", class="login">Log In</a>
-               <a class="upload", class="login">Register</a>
+               <a href = "#openModal", class="upload">Log In</a>
+               <!--<div id ="openModal" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>Modal Box</h2>
+                    <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+                </div>
+               </div>
+             -->
+               <a class="upload">Register</a>
        </div>        
        <div class="maintitle">
                <h1><b>Gif</b>Pop</h1>
@@ -20,6 +29,17 @@
                	<input type="text" id="search">
                	<input type="submit" value="Search">
                </form>
+               <a> Or select a category below: </a>
+               
+               <div id="navcontainer">
+                  <ul id="navlist">
+                  <li id="active"><a href="#" id="current">Popular</a></li>
+                  <li><a href="#">Top of Day</a></li>
+                  <li><a href="#">Top of Week</a></li>
+                  <li><a href="#">Top of Month</a></li>
+                  <li><a href="#">All time top</a></li>
+              </ul>
+              </div>
        </div>
 </div>
 </br>
